@@ -8,7 +8,7 @@ Features:
 - 7-segment display with 4 digits to display time and/or temperature in Celsius;
 - Programmable time-of-day alarm with a buzzer;
 - 2 LEDs: one indicating the alarm state (on/off) and one indicating temperature signal (on for negative temperature, off for positive temperature).
-- PCB: Two power supply possibility: 5V DC (VCC_USB) or DC up to 20V regulated by a LM7805 selectable via VCC_SEL pin header. In-Circuit Serial Programming (ICSP) compatible.
+- - PCB: Two power supply possibility: 5V DC (VCC_USB) or DC up to 20V regulated by a LM7805. The power supply is selected via VCC_SEL pin header. In-Circuit Serial Programming (ICSP) compatible.
 
 Peripherals:
 - Temperature sensor: DS18B20;
