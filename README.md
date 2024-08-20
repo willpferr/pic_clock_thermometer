@@ -18,12 +18,12 @@ Peripherals:
 Interaction:
 The system can be interacted using 3 push buttons:
 - STEP: Press STEP button during running mode to activate the updating mode, which blinks the selected field. Each press cycles through different fields in the following sequence:
-- - 1: Clock hour (range: 0-23);
-- - 2: Clock minute (range: 0-59);
-- - 3: Alarm mode ('A' at first digit) (states: on/off);
-- - 4: Alarm hour (range: 0-23);
-- - 5: Alarm minute (range: 0-59);
-- - 6: Temperature mode ('t' at first digit) (states: F(float)/I(integer));
-- - 7: Display Brightness ('b' at first digit) (range: 0-7).
+- 1: Clock hour (range: 0-23);
+- 2: Clock minute (range: 0-59);
+- 3: Alarm mode ('A' at first digit) (states: on/off);
+- 4: Alarm hour (range: 0-23);
+- 5: Alarm minute (range: 0-59);
+- 6: Temperature mode ('t' at first digit) (states: F(float)/I(integer));
+- 7: Display Brightness ('b' at first digit) (range: 0-7).
 - INC: Changes the selected field's value to its next value;
 - SET: Press SET button during updating mode to apply the current value to its corresponding field. In running mode, pressing SET will change the displayed data (clock, temperature, alternating clock/temperature). When the buzzer is active due to an alarm, pressing SET will disable it. Otherwise, the buzzer will be disabled automatically after about 30 seconds.
